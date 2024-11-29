@@ -1,9 +1,6 @@
 # Load the required library
 library(data.table)
 
-# Set the working directory
-setwd("~/Desktop/datasciencecoursera/4_Exploratory_Data_Analysis/project/data")
-
 # Load the dataset and handle missing values
 data <- fread("household_power_consumption.txt", na.strings = "?")
 
